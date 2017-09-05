@@ -1,11 +1,30 @@
 <resources>
+    <!-- Strings related to login -->
     <string name="app_name">Personal Trainer Customer Management 2</string>
     <string name="successfulLogin">And we\'re in!</string>
     <string name="username">jdoe</string>
     <string name="password">welcome1</string>
     <string name="error_incorrect_username_password">This username/password combination is not valid</string>
 
-    <!-- Strings related to login -->
+    <!-- Strings related to customer -->
+    <string name="customer_new_button">New Customer</string>
+    <string name="customer_session_label">Session</string>
+    <string name="customer_date_label">Date</string>
+    <string name="customer_receipt_Button">Generate Receipt</string>
+
+    <!-- Strings related to sessions -->
+    <string name="session_session_label">Session</string>
+    <string name="session_Date_label">Date</string>
+    <string name="session_completed_label">Completed</string>
+    <string name="session_cc_info_label">Credit Card Information</string>
+    <string name="session_cc_csv_label">CSV</string>
+    <string name="session_cc_card_type_label">Card Type</string>
+    <string name="session_cc_expires_label">Expires</string>
+    <string name="session_generate_receipt_button">Generate Receipt</string>
+
+    <string name="fragment_logged_in">Logged In: </string>
+
+    <!-- Strings related to login labels-->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
@@ -17,4 +36,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="_04_april_2012">04 April 2012</string>
+    <string name="visa">VISA</string>
+    <string name="_111">111</string>
+    <string name="_0000000000000000">0000000000000000</string>
+    <string name="mon_may_30_15_50_00_edt">Mon May 30 15:50:00 EDT</string>
+    <string name="professor_ma">Professor Ma</string>
+    <string name="yami_medina">Yami Medina</string>
+    <string name="sun_ma_29_15_50_01_edt">Sun Ma 29 15:50:01 EDT</string>
 </resources>
