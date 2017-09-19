@@ -44,4 +44,12 @@
     <string name="professor_ma">Professor Ma</string>
     <string name="yami_medina">Yami Medina</string>
     <string name="sun_ma_29_15_50_01_edt">Sun Ma 29 15:50:01 EDT</string>
+    <string name="logoff">LogOff</string>
+
+    <string name="tab1">Main</string>
+    <string name="tab2">Customer</string>
+    <string name="tab3">Session</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
