@@ -11,10 +11,22 @@ public class Customer {
     private String mFirstName;
     private String mLastName;
 
+    public Customer(){
+        this(UUID.randomUUID());
+    }
+
+    public Customer(UUID id){
+        mId = id;
+    }
+
     public Customer(String firstName, String lastName){
         mId = UUID.randomUUID();
         mFirstName = firstName;
         mLastName = lastName;
+    }
+
+    public UUID getId() {
+        return mId;
     }
 
     public String getFirstName() {

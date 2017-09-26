@@ -17,7 +17,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                MainFragment tab1 = new MainFragment();
+                CustomerListFragment tab1 = new CustomerListFragment();
                 return tab1;
             case 1:
                 CustomerFragment tab2 = new CustomerFragment();
