@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -77,6 +78,10 @@ public class CustomerLab {
         }
     }
 
+    public File getPhotoFile(Customer customer){
+        File filesDir = mContext.getFilesDir();
+        return new File(filesDir, customer.getPhotoFileName());
+    }
 
     public void updateCustomer(Customer customer){
         String uuidString = customer.getId().toString();

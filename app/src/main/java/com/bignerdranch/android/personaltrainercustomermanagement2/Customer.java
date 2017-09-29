@@ -44,5 +44,9 @@ public class Customer {
     public void setLastName(String lastName) {
         mLastName = lastName;
     }
+
+    public String getPhotoFileName(){
+        return "IMG_" + getId().toString() + ".jpg";
+    }
 }
 
